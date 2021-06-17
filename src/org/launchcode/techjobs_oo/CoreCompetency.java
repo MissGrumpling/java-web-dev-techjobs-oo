@@ -2,24 +2,23 @@ package org.launchcode.techjobs_oo;
 
 import java.util.Objects;
 
-public class CoreCompetency {
-    private int id;
+public class CoreCompetency extends JobField {
+    /*private int id;
     private static int nextId = 1;
     private String value;
 
     public CoreCompetency() {
         this.id = nextId;
         nextId++;
-    }
+    }*/
 
     public CoreCompetency(String value) {
-        this();
-        this.value = value;
+        super(value);
     }
 
     // Custom toString, equals, and hashCode methods:
 
-    @Override
+   /* @Override
     public String toString() {
         return value;
     }
@@ -50,5 +49,5 @@ public class CoreCompetency {
 
     public void setValue(String value) {
         this.value = value;
-    }
+    }*/
 }

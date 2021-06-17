@@ -54,7 +54,7 @@ public class Job {
         if(coreCompetency.getValue() != ""){
             coreCompetencyToString = coreCompetency.getValue();
         }
-        return "ID:"+ id +"\n Name:" + nameToString + "\n Employer: " + employerToString +
+        return "\nID:"+ id +"\n Name:" + nameToString + "\n Employer: " + employerToString +
                 "\n Location: " + locationToString + "\n Position Type: " + positionTypeToString +
                 "\n Core Competency: " + coreCompetencyToString;
     }
