@@ -69,4 +69,16 @@ public class JobTest {
     public void testJobsForEquality(){
         assertFalse(test_job.equals(test_job2));
     }
+
+    @Test
+    public void testJobReturnString(){
+        String jobString =
+                "ID : test_job4.getId()\n"+
+                "Name : test_job4.getName()\n" +
+                "Employer : test_job4.getEmployer().toString()\n" +
+                "Location : test_job4.getLocation().toString()\n" +
+                "Position Type : test_job4.getPositionType().toString()\n" +
+                "Core Competency : test_job4.getCoreCompetency().toString()\n";
+        assertTrue(test_job4.toString().equals(jobString));
+    }
 }
