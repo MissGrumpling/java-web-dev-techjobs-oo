@@ -3,9 +3,9 @@ package org.launchcode.techjobs_oo.Tests;
 import org.junit.Before;
 import org.junit.Test;
 import org.launchcode.techjobs_oo.*;
-import org.junit.Assert.*;
+import static org.junit.Assert.*;
 
-import static org.junit.Assert.assertFalse;
+//import static org.junit.Assert.assertFalse;
 
 
 public class JobTest {
@@ -28,16 +28,16 @@ public class JobTest {
         //test_job.getId();
         assertEquals(1, test_job.getId(), .001);
     }
-    private void assertEquals(int i, int id, double v) {
-    }
+    //private void assertEquals(int i, int id, double v) {
+    //}
     @Test
     public void testSettingJobIdChanges(){
         //test_job.getId();
         //test_job2.getId();
         assertTrue(test_job2.getId()> test_job.getId());
     }
-    private void assertTrue(boolean b) {
-    }
+   //private void assertTrue(boolean b) {
+   // }
     @Test
     public void testSettingId(){
         //test_job.getId();
@@ -62,8 +62,8 @@ public class JobTest {
         assertEquals("Persistance", test_job4.getCoreCompetency().getValue());
     }
 
-    private void assertEquals(String product_tester, String name) {
-    }
+    //private void assertEquals(String product_tester, String name) {
+    //}
 
     @Test
     public void testJobsForEquality(){
